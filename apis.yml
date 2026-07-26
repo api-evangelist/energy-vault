@@ -1,8 +1,15 @@
 aid: energy-vault
 name: Energy Vault
-description: 'Energy Vault is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Energy Vault Holdings (NYSE: NRGV) is a Swiss-founded, US-headquartered energy storage
+  company delivering grid-scale storage hardware, software, and services worldwide. Its portfolio spans
+  battery energy storage (B-VAULT), gravity-based storage (G-VAULT / EVx), and green-hydrogen storage
+  (H-VAULT), unified by VaultOS, an energy management software platform providing real-time monitoring,
+  operational control, and optimized dispatch across storage and generation assets, alongside Vault
+  Bidder and Vault Manager for market bidding and asset management. The company serves utilities,
+  independent power producers, and large energy users, with more than 1.4 GWh deployed since 2023. Backed
+  by SoftBank Vision Fund, Energy Vault is a frontier-tech company in the API Evangelist network. As of
+  this enrichment pass it publishes no public developer API, developer portal, SDK, or API reference;
+  VaultOS is delivered as a proprietary, deployment-integrated platform rather than a public API product.'
 url: https://raw.githubusercontent.com/api-evangelist/energy-vault/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +17,51 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Frontier Tech
+- Energy Storage
+- Energy Management
+- Battery Storage
+- Gravity Storage
+- Green Hydrogen
+- Grid Scale
+- Renewable Energy
+- VaultOS
+image: https://www.energyvault.com/hubfs/ev-fav.png
 apis: []
+common:
+- type: Website
+  url: https://www.energyvault.com
+- type: Blog
+  url: https://www.energyvault.com/newsroom
+- type: Support
+  url: https://www.energyvault.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.energyvault.com/privacy-policy
+- type: DomainSecurity
+  url: security/energy-vault-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
